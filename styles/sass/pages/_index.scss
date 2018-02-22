@@ -35,6 +35,18 @@
 			z-index: 10;
 			transition: all .5s;
 		}
+		.bw {
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			opacity: 1;
+			z-index: 55;
+			transition: all .3s;
+		}
 		.bg {
 			background-size: cover;
 			background-position: top center;
@@ -54,8 +66,8 @@
 		&:after {
 			content: "";
 			background: #f1c876;
-			background: -webkit-linear-gradient(45deg, #f1c876, #9a3884);
-			background: linear-gradient(45deg, #f1c876, #9a3884);
+			// background: -webkit-linear-gradient(45deg, #f1c876, #9a3884);
+			// background: linear-gradient(45deg, #f1c876, #9a3884);
 			position: absolute;
 			top: 0;
 			right: 0;
@@ -92,6 +104,9 @@
 			.square {
 				// margin: -10px;
 				border: 0;
+			}
+			.bw {
+				opacity: 0;
 			}
 		}
 	}
