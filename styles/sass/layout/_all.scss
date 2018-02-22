@@ -12,6 +12,25 @@ body {
 
 a, .btn-link { 
 }
+
+.loader {
+	background: -webkit-linear-gradient(45deg, #f1c876, #9a3884);
+	background: linear-gradient(45deg, #f1c876, #9a3884);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	@include flexbox;
+	@include justify-content(center);
+	@include align-items(center);
+	img {
+		width: 400px;
+	}
+}
  
 // =============================================================================
 //
