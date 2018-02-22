@@ -8180,7 +8180,7 @@ body {
       left: 0;
       opacity: 1;
       z-index: 55;
-      transition: all .3s; }
+      transition: all .5s; }
     .team .team-item .bg {
       background-size: cover;
       background-position: top center;
